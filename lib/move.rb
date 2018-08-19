@@ -11,10 +11,10 @@ end
 # code your input_to_index and move method here!
 def input_to_index(input)
   input.to_i - 1
-  return position
+  return input
 end
 
-def move(array, position, char)
+def move(array, index, char)
   array[position] = char
   return array
 end
